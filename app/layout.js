@@ -19,8 +19,6 @@ export default function RootLayout({ children }) {
       {children}
       <Badge variant="outline">Hosted by Arghya</Badge>
       </body>
-
-
     </html>
   )
 }
