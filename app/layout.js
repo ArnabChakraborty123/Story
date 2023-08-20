@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
       {children}
-      <Badge variant="outline"> Created by Arnab   Hosted by Arghya</Badge>
+      <Badge variant="outline"> Created by Arnab  <span style={{ fontSize: '0.8em' }}>Hosted by Arghya</span></Badge>
       </body>
     </html>
   )
