@@ -8,10 +8,11 @@ function AppologyPage() {
   return (
     <div className="bg-gradient-to-r from-purple-700 to-purple-900 h-screen flex flex-col justify-center items-center">
       <h1 className="text-5xl text-center font-bold py-8 text-white">
-        <span className="bg-gradient-to-r from-pink-400 to-purple-600 text-transparent bg-clip-text">
-          🙏 Apology for Everything
-        </span>
-      </h1>
+  <span className="text-pink-400">
+    🙏 Apology for Everything
+  </span>
+</h1>
+
       <div className="mb-8">
         <Button type="primary" onClick={() => setVisible(true)}>
           Show Image Preview
@@ -43,6 +44,7 @@ function AppologyPage() {
           width={200}
           height={300}
           className="mx-auto"
+          style={{ maxWidth: '100%' }}
         />
       </div>
      

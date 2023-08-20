@@ -49,7 +49,7 @@ function ThankuPage() {
                   <a className="inline-flex items-center">
                     <img
                       alt="testimonial"
-                      src="/images/OS_WITH_YOU.jpg"
+                      src="/images/nabina.jpg"
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                     />
                     <span className="flex-grow flex flex-col pl-4">
@@ -126,7 +126,7 @@ Lastly, many many happy returns of the ending of your teenage days🤗now you'r
                   <a className="inline-flex items-center">
                     <img
                       alt="testimonial"
-                      src="https://dummyimage.com/107x107"
+                      src="/images/tanisha.jpg"
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                     />
                     <span className="flex-grow flex flex-col pl-4">
