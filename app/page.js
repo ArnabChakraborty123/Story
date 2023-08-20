@@ -7,7 +7,8 @@ import Header from '@/components/Header';
 function Page() {
   return (
     <div className="bg-gradient-to-r from-purple-500 to-pink-500 min-h-screen">
-      <Navbar />
+          <Navbar/>
+
       <div className="container mx-auto pt-10 ">
         <header className="text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">

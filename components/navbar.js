@@ -2,21 +2,19 @@ import Link from 'next/link';
 
 function Navbar() {
   return (
-    <nav className="flex">
-      <ul className="menu-bar flex">
-         <li className="mr-4">
+    <nav className="grid w-full grid-cols-4">
+     <div>
           <Link href="/">Home</Link>
-        </li>
-        <li className="mr-4">
+          </div>
+        <div>
           <Link href="/about">About</Link>
-        </li>
-        <li className="mr-4">
-          <Link href="/about/appology">Apology page</Link>
-        </li>
-        <li>
-          <Link href="/about/thanku">Thanku page</Link>
-        </li>
-      </ul>
+          </div>
+          <div>
+          <Link href="/about/appology">Apology </Link>
+          </div>
+          <div>
+          <Link href="/about/thanku">Thank you</Link>
+          </div>
     </nav>
   );
 }
